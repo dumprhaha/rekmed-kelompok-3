@@ -63,7 +63,7 @@ use app\assets\MetronicAsset;
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" href="<?= Yii::getAlias('@web/favicon.ico') ?>"/>
+    <link rel="shortcut icon" href="<?= Yii::getAlias('@web/favicon.webp') ?>"/>
 
     <?= Html::csrfMetaTags() ?>
 

@@ -39,7 +39,7 @@ MetronicAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="<?= Yii::getAlias('@web/favicon.ico') ?>" />
+    <link rel="shortcut icon" href="<?= Yii::getAlias('@web/favicon.webp') ?>" />
     <?= Html::csrfMetaTags() ?>
     <title>
         <?= Html::encode($this->title) ?>
@@ -87,7 +87,7 @@ MetronicAsset::register($this);
                                     <?php echo $realUsername != '' ? "(simulasi)" : "" ?>
                                 </span>
                                 <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
-                                <?= empty($dokter->foto) ? Html::img('@web/img/DR-avatar.png', ['class' => 'img-circle']) : Html::img('@web/' . $dokter->foto, ['class' => 'img-circle']) ?>
+                                <?= empty($dokter->foto) ? Html::img('@web/img/DR-avatar.webp', ['class' => 'img-circle']) : Html::img('@web/' . $dokter->foto, ['class' => 'img-circle']) ?>
                             </a>
                         </li>
                         <!-- END USER LOGIN DROPDOWN -->
