@@ -18,12 +18,12 @@ class MetronicAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        // 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all',
+        'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all',
         'metronic/global/plugins/font-awesome/css/font-awesome.min.css',
         'metronic/global/plugins/simple-line-icons/simple-line-icons.min.css',
         'metronic/global/plugins/bootstrap/css/bootstrap.min.css',
-        // 'metronic/global/plugins/uniform/css/uniform.default.css',
-        // 'metronic/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css',
+        'metronic/global/plugins/uniform/css/uniform.default.css',
+        'metronic/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css',
         'metronic/global/css/components.min.css',
         'metronic/global/css/plugins.min.css',
         'metronic/layouts/layout4/css/layout.min.css',
